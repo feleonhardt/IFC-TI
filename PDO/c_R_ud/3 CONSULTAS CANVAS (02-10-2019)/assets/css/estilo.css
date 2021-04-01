@@ -1,0 +1,16 @@
+.ruim{
+  color: red;
+}
+.boa{
+  color: blue;
+}
+#media{
+  font-weight: 700;
+}
+.negrito{
+  font-weight: 900 !important;
+}
+table{
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-radius: 20px;
+}

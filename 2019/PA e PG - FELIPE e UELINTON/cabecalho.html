@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/img/casa.png">
+  <script type="text/javascript" src="assets/js/jQuery.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.js"></script>
+  <style type="text/css">
+  .brand-logo{
+    margin-left: 20px !important;
+  }
+  ul{
+    margin-right: 5px !important;
+  }
+  form{
+    align-items: center;
+  }
+  body{
+    background-color: #222 ;
+  }
+  input{
+    color: #fff !important;
+  }
+  .resultado{
+    color: #fff !important;
+  }
+  	[type="radio"]:checked + span:after,
+	[type="radio"].with-gap:checked + span:before,
+	[type="radio"].with-gap:checked + span:after {
+ 	border: 2px solid #0091ea;
+}
+  </style>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable(

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+body{
+	background-color: #DCDCDC;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.barra {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 13px;
+	padding-bottom: 0px;
+}
+
+b{
+	font-family: 'Open Sans', sans-serif;
+	color: #696969;
+	font-size: 15px;
+}
+
+b:hover{
+	color: #1E90FF;
+}
+
+#home{
+	color: #1E90FF;
+}
+ 
+#btnTwitter{
+  border:none;
+  height:32px;
+  border-radius:16px 16px;
+  width:75px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight:bold;
+  color: white;
+  background:#1E90FF;
+}
+
+#btnLupa{
+	border:none;
+	height:32px;
+	border-radius: 0 16px 16px 0;
+	width:40px;
+	background:#DCDCDC;
+}
+
+#texto{
+	background-color:#DCDCDC;
+	padding-left:10px; 
+	font-size: 21px;
+	border:none;
+	height:32px;
+ 	width:170px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	border-radius: 16px 0 0 16px;
+ 	color: #696969;
+}
+
+.perfil{
+	background-color: #1E90FF;
+	position: fixed;
+	top: 85px;
+	left: 105px;
+	right: 980px;
+	height: 80px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 7px;
+	padding-bottom: 0px;
+}
+
+.perfil2{
+	background-color: white;
+	position: fixed;
+	top: 172px;
+	left: 105px;
+	right: 980px;
+	height: 130px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+}
+
+b#usuario{
+	color: #696969;
+	font-size: 13px;
+}
+
+b#usuario:hover{
+	text-decoration: underline;
+}
+
+b#topicos{
+	color: #696969;
+	font-size: 12px;
+}
+
+b#numeros{
+	color: #1E90FF;
+	font-size: 20px;
+}
+
+.trends{
+	background-color: white;
+	position: fixed;
+	top: 317px;
+	left: 105px;
+	right: 980px;
+	height: 320px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+b#change{
+	color: #1E90FF;
+	font-size: 10px;
+}
+
+b#change:hover{
+	color: #1E90FF;
+	text-decoration: underline;
+}
+
+.nome{
+	color:#1E90FF;
+	font-size: 14px;
+}
+
+.nome:hover{
+	text-decoration: underline;
+}
+
+.tweet{
+	color: #696969;
+	font-size: 12px;
+}
+
+.twittar{
+	background-color: #ADD8E6;
+	position: fixed;
+	top: 85px;
+	left: 383px;
+	height: 30px;
+	width: 530px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+
+
+#twitar{
+	background-color:white;
+	padding-left:10px; 
+	padding-top: 9px;
+	font-size: 13px;
+	border:none;
+	height:30px;
+ 	width:430px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	border-radius: 10px 10px;
+ 	color: #1E90FF;
+ 	text-align: justify;
+}
+
+.home{
+	background-color: white;
+	position: relative;
+	top: 136px;
+	left: 375px;
+	height: 1500px;
+	width: 530px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+
+.follow{
+	background-color: white;
+	position: fixed;
+	top: 85px;
+	right: 105px;
+	height: 375px;
+	width: 257px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.twitter{
+	background-color: white;
+	position: fixed;
+	top: 500px;
+	right: 105px;
+	height: 130px;
+	width: 257px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+strong#pagina{
+	font-size: 13px;
+}
+
+strong#pagina:hover{
+	color: #1E90FF;
+	text-decoration: underline;
+}
+
+strong#pagina2{
+	font-size: 13px;
+	color:#696969;
+}
+
+#find{
+	font-size: 13px;
+}
+
+#btnFollow{
+  border:none;
+  height:27px;
+  border-radius:16px 16px;
+  width:50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight:bold;
+  color: white;
+  background:#1E90FF;
+}
+
+.nomeUsuario{
+	font-size: 15px;
+}
+
+.data{
+	font-size: 15px;
+	color:#696969;
+}
+
+p{
+	font-size: 15px;
+}
+
+.notificacoes{
+	font-size: 14px;
+	color:#696969;
+}

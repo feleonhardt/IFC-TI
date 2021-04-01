@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+	color: black;
+	text-align: justify;
+	font-family: 'Comfortaa', cursive;
+	font-weight: normal;
+	font-style: inherit;
+	background-image: url(../img/fundo.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+fieldset {
+	border: 3px solid green;
+	border-radius: 10px;
+	padding: 2%;
+	text-align: center;
+	margin: 3% 15% 3% 15%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+legend {
+	font-size: 48px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	padding: 1%;
+	border-radius: 10px;
+	border: 3px solid green;
+	background: linear-gradient(to left, #A30BBA, #DA08FA, #A30BBA);
+}
+
+input[type="submit"], input[type="reset"] {
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 1%;
+	border-radius: 8px;
+	border: 4px solid #A30BBA;
+	background: linear-gradient(to left, #A30BBA, #DA08FA, #A30BBA);
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	color: #A30BBA;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 1%;
+	border-radius: 8px;
+	border: 4px solid #A30BBA;
+	background: white;
+}
+
+input[type="number"], input[type="text"], textarea {
+	color: #A30BBA;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0.5%;
+	border-radius: 8px;
+	border: 4px solid #A30BBA;
+	background: white;
+	display: inline-block;
+ 	padding-left: 10px;
+ 	width: 25%;
+}
+
+label {
+	display: block;
+	padding: 10px;
+}
+
+select {
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0.5%;
+	border-radius: 8px;
+	border: 4px solid #A30BBA;
+	background: linear-gradient(to left, #A30BBA, #DA08FA, #A30BBA);
+}
+
+option {
+	color: #A30BBA;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 1%;
+	border-radius: 8px;
+	border: 4px solid #A30BBA;
+	background: white;
+}

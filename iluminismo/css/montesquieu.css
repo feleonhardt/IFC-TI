@@ -1,0 +1,31 @@
+.autors{
+  margin-top: 8%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.phil{
+  margin-top: 10%;
+  margin-left: 18%;
+  border-radius: 160px;
+}
+.case{
+  margin-top: 7%;
+  width: 407px;
+  border-radius: 10px;
+}
+.case2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 500px;
+}
+ol, ul{
+  font-family: 'Nunito', sans-serif;
+}
+.title-list{
+  font-size: 25px;
+  color: brown;
+}
+.text-list{
+  font-size: 20px;
+}

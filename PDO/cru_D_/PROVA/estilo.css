@@ -1,0 +1,22 @@
+.Particular{
+  color: blue !important;
+  font-family: 'Times New Roman';
+}
+.SUS{
+  color: green !important;
+  font-family: 'Verdana';
+  font-weight: bold;
+}
+.Plano{
+  color: red !important;
+  font-family: 'Arial Black';
+  font-style: italic;
+}
+.Social{
+  color: #444 !important;
+  font-family: 'Courier New';
+  font-style: italic;
+}
+.cinza{
+  background-color: #cdcdcd;
+}

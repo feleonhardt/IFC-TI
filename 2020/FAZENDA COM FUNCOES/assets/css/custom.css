@@ -1,0 +1,12 @@
+body{
+  background-image: url(../img/rural2.jpg);
+}
+.fundoBranco{
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 10px;
+}
+.fundoInput{
+  background: #fff !important;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}

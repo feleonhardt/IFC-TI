@@ -1,0 +1,384 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+// TODO: Fazer uma classe de formulario orientado a esquerda e um a direita, como por exemplo com classe esquerda e direita, podendo ser ate global essa classe
+
+*, :before, :after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #212121; */
+  background: url("../images/wallpaper.jpg");
+  background-position: top;
+  background-repeat: repeat;
+  background-clip: border-box;
+  background-size: 100%;
+  background-origin: border-box;
+  background-attachment: fixed;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+form {
+  width: 450px;
+  margin: 45px auto;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: left;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+
+h6 {
+  text-align: left;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+}
+
+p {
+  text-align: justify;
+  color: #fff;
+  font-size: 16px;
+}
+
+hr.dividir {
+  background: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  height: 2px;
+  width: 25%;
+  margin: 0px auto 0px auto;
+}
+
+.input {
+  position: relative;
+  margin: 45px 0;
+  width: 450px;
+}
+
+textarea {
+  resize: none;
+}
+
+input, textarea {
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 450px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
+  top: -14px;
+  font-size: 16px;
+  color: #fff;
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+.input label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.enviar {
+  text-align: center;
+  margin: 50px 0;
+}
+
+input[type="submit"], input[type="reset"] {
+  background: #fff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  width: 48%;
+  float: left;
+  margin: auto 1% 1% 1%;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3pxrgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background: #616161;
+  color: #deeffd;
+  -webkit-box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+.radio {
+  margin: 16px 0;
+}
+
+.radio.radio-horizontal {
+  display: inline-block;
+}
+
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio input[type="radio"]:checked+label:before {
+  border-color: #fff;
+  font-size: 16px;
+}
+
+.radio input[type="radio"]:checked+label:after {
+  transform: scale(1);
+  font-size: 16px;
+}
+
+.radio label {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  padding: 0 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 16px;
+  vertical-align: bottom;
+}
+
+.radio label:before, .radio label:after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all .3s ease;
+  transition-property: transform, border-color;
+}
+
+.radio label:before {
+  left: 0;
+  font-size: 16px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+}
+
+.radio label:after {
+  top: 5px;
+  font-size: 16px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #fff;
+}
+
+select {
+  font-family: inherit;
+  width: 450px;
+  background: rgba(0, 0, 0, 0);
+  padding: 4px 0;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/arrow.png) no-repeat right;
+}
+
+select:focus {
+  outline: none;
+}
+
+option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 40px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+option:hover {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white;
+  color: black;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background: url("../images/arrow-right.png") no-repeat;
+  padding-left: 6%;
+  margin: 0;
+  line-height: 150%;
+  list-style: none;
+  text-align: justify;
+  color: #fff;
+  font-size: 16px;
+}
+
+pre {
+  overflow: auto;
+  width: 500px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+pre:hover {
+  position: relative;
+  width: 700px;
+  z-index: 99;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  color: #000000;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-radius: 15px;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+tr:hover {
+  background-color: #E0E0E0;
+}
+
+table th, table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}

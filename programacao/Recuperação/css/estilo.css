@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+	background-color: #DCDCDC;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+fieldset{
+	background-color: #DCDCDC;
+	border: 2px dotted black;
+	padding: 2px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+legend{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 70px;
+}
+
+#box{
+	width:1150px;
+	height:1100px;
+	background-color:#A9A9A9;
+	border-radius: 10px;
+}
+
+form{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+}

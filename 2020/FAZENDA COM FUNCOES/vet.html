@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Veterinário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Fazenda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Veterinário<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vet_lista.php">Listar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-4">
+            <br>
+            {msg}
+            <form action="vet.php" method="post" enctype="multipart/form-data">
+              <div class="row justify-content-center">
+                <div class="col-10 fundoBranco">
+                  <img src="upload/{imagem}" class="img-fluid rounded mx-auto d-block" onerror="this.src='assets/img/user.png'">
+                </div>
+              </div>  
+              <br>
+              <div class="form-row align-items-center">
+                  <div class="col-12">
+                    <label class="sr-only" for="nome"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Nome</div>
+                      </div>
+                      <input type="text" name="nome" value="{nome}" class="form-control" id="nome">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label class="sr-only" for="imagem"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupFileAddon01">Foto</span>
+                        </div>
+                        <div class="custom-file fundoInput">                           
+                          <input type="file" name="imagem" value="{imagem}" class="custom-file-input" id="customFile">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="col-12">
+                    <label class="sr-only" for="crmv"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">CRMV</div>
+                      </div>
+                      <input type="text" name="crmv" value="{crmv}" class="form-control" id="crmv">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label class="sr-only" for="telefone"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Telefone</div>
+                      </div>
+                      <input type="text" name="telefone" value="{telefone}" class="form-control" id="telefone">
+                    </div>
+                  </div>
+                  <input type="hidden" name="codigo" value="{codigo}">
+                  <div class="col-12">
+                    <button type="submit" name="salvar" class="btn btn-success btn-lg btn-block">Salvar</button>
+                  </div>
+                </div>
+              <!-- <label for="nome">Nome:</label>
+              <input type="text" name="nome" value="{nome}"><br>
+              <label for="imagem">Foto:</label>
+              <input type="file" name="imagem" value=""><br>
+              <label for="crmv">CRMV:</label>
+              <input type="text" name="crmv" value="{crmv}"><br>
+              <label for="telefone">Telefone:</label>
+              <input type="text" name="telefone" value="{telefone}"><br>
+              <input type="hidden" name="codigo" value="{codigo}">
+              <input type="submit" name="salvar" value="Salvar"> -->
+          </form>
+        </div>
+      </div>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

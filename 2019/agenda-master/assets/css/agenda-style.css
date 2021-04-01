@@ -1,0 +1,5 @@
+root {display: block;}
+body {margin-top: 60px;height: 100%;}
+.box {border: 1px solid #ddd; color: #ccc; border-radius: 10px;}
+.h2,.title {text-shadow: 1px 1px 2px #000;transition: 1s; -webkit-transition: 1s;}
+.title:hover {color: #c0c0c0;}

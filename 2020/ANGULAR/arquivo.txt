@@ -1,0 +1,6 @@
+1, Mochila, 60
+2, Estojo, 15
+3, Tesoura sem ponta, 5.5
+4, Borracha, 1.3
+5, Cola branca, 10
+10, Apontador, 2

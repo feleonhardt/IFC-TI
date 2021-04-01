@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+	color: black;
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: inherit;
+	margin-top: 40px;
+	margin-left: 55px;
+	margin-right: 65px;
+	background-image: url(../img/fundo.jpg);
+	opacity:0.85;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#form{
+  float: left; 
+  width: 45%;
+}
+
+#tab{
+  float: right; 
+  width: 55%;
+}
+
+fieldset {
+	border: 3px solid #008B8B;
+	border-radius: 20px;
+	margin: 3% 15% 3% 15%;
+	background-color: #E6E6FA;
+	margin-left: 10px;
+}
+
+legend {
+	font-size: 48px;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+}
+
+tr:hover, tr:nth-child(even):hover{
+	background-color: #20B2AA;
+}
+
+table tbody tr{
+    background-color:#E6E6FA;
+}
+
+table tbody tr#th{
+    background-color:#B0E0E6;
+}
+
+table{
+	border: 2px solid #008B8B;
+}
+
+table td{
+	text-align: center;
+}

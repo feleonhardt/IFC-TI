@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+#pesquisa{
+	background-color: white;
+	position: fixed;
+	width: 350px;
+	height: 700px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+#tab{
+	background-color: #3CB371;
+	position: fixed;
+	top: 0;
+	left: 350;
+	right: 0;
+	bottom: 0;
+	width: 800px;
+	height: 700px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 13px;
+	padding-bottom: 0px;	
+}
+
+#pagina{
+	width: 1250px;
+	height: 700px;
+}
+
+.a{
+ 	text-decoration: none;
+  	color: black;
+  	background-color: #90EE90;
+  	border-radius: 10px;
+  	padding: 7px;
+  	font-family: 'Chelsea Market', cursive;
+	font-size: 13px;
+} 
+
+th{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+	height: 45px;
+}
+
+td{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	width: 220px;
+	height: 30px;
+}
+
+tr:hover, tr:nth-child(even):hover{
+	background-color: #3CB371;
+}
+
+table tbody tr{
+    background-color:white;
+}
+
+table tr:nth-child(even) {
+  background-color: #90EE90;
+}
+
+table tbody tr#th{
+    background-color: white;
+}
+
+table{
+	text-align: center;
+}
+
+b{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+}
+
+.txtBusca{
+  float:center;
+  padding-left:10px; 
+  font-size:15px;
+  border: 1px solid #3CB371;
+  border-radius: 10px;	
+  height:25px;
+  width:190px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type='submit'] {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  color:black;
+  font-weight: bold;
+  border: 1px solid #3CB371;
+  border-radius: 10px;	
+  background-color: #3CB371;
+  padding: 5px
+}

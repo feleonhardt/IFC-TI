@@ -1,0 +1,9 @@
+
+  <div class="container">
+    <div class="container-form"><form style="display: flex; flex-direction: column; width: 30%; margin: 0 auto;" method="POST" action="/cliente/<?php echo $this->view->cliente[0]->getId(); ?>/update"><h3> Edição de Cliente </h3>  <div class="form-group"><label>Id</label>
+        <input type="text" name="id" class="form-control" value="<?php echo $this->view->cliente[0]->getId(); ?>" required>  </div>  <div class="form-group"><label>Nome</label>
+        <input type="text" name="nome" class="form-control" value="<?php echo $this->view->cliente[0]->getNome(); ?>" required>  </div>  <div class="form-group"><label>Cpf</label>
+        <input type="text" name="cpf" class="form-control" value="<?php echo $this->view->cliente[0]->getCpf(); ?>" required>  </div>  <div class="form-group"><label>Rg</label>
+        <input type="text" name="rg" class="form-control" value="<?php echo $this->view->cliente[0]->getRg(); ?>" required>  </div><button type="submit" class="btn btn-success">Salvar</button>
+</form></div>
+  </div>

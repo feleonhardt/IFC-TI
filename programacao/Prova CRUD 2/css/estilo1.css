@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+	background-color: #3CB371;
+}
+
+.titulo{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+}
+
+th{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+	height: 45px;
+}
+
+td{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	width: 220px;
+	height: 30px;
+}
+
+tr:hover, tr:nth-child(even):hover{
+	background-color: #3CB371;
+}
+
+table tbody tr{
+    background-color:white;
+}
+
+table tr:nth-child(even) {
+  background-color: #90EE90;
+}
+
+table tbody tr#th{
+    background-color: white;
+}
+
+table{
+	text-align: center;
+}
+
+.a{
+ 	text-decoration: none;
+  	color: black;
+  	background-color: #90EE90;
+  	border-radius: 10px;
+  	padding: 7px;
+  	font-family: 'Chelsea Market', cursive;
+	font-size: 15px;
+} 

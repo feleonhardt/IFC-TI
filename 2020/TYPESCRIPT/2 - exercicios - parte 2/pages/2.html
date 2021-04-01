@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALÁRIO</title>
+    <script src="../dist/2.js"></script>
+</head>
+<body>
+    <form action="">
+        Salário atual (R$): 
+        <input type="number" name="atual" id="atual" min=0 required placeholder="Ex: 2000"><br>
+        
+        Percentual de reajuste (%): 
+        <input type="number" name="percentual" id="percentual" min=0 required placeholder="Ex: 10"><br>
+        <br>
+        <button onclick="calculaSalario()" type="button">Calcular</button>
+    </form><br>
+    <br>
+    <div id="resultado"></div>
+</body>
+</html>

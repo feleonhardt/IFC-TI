@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", // Nome da pasta que usará EX: dist -> distribuicao
+        "noEmitOnError": true
+    }
+}

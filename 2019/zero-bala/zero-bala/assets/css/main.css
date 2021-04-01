@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.mask {
+  border: none;
+  background: red;
+}
+.botao {
+  margin: 24px;
+  padding: 12px;
+}
+.ctrl {
+  margin-top: 4%;
+}
+.pqn{
+  width: 500px;
+}
+.fecha {
+  background: white;
+  padding-bottom: 0;
+  width: 32px;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+}
+.fecha:hover{
+  cursor: pointer;
+  background: lightgray;
+  transition: .5s;
+}

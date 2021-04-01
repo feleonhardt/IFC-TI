@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      function pegarValor(){
+        num1 = parseFloat(document.getElementById('num1').value);
+        num2 = parseFloat(document.getElementById('num2').value);
+        soma(num1, num2);
+      }
+      function soma(a, b){
+        soma = a + b;
+        mostrar(a, b, soma);
+      }
+      function mostrar(um, dois, soma){
+        document.write(um + "+" + dois + "=" + soma);
+      }
+    </script>
+  </head>
+  <body>
+    <label>Número 1</label>
+    <input type="text" name="num1" id="num1" value="">
+    <label>Número 2</label>
+    <input type="text" name="num2" id="num2" value="">
+    <input type="button" onclick="pegarValor()" value="OK">
+  </body>
+</html>
